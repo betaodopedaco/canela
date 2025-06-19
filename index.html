@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência Canela | Design & Marketing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <div id="particles-js"></div>
+    <div class="grid-3d"></div>
+
+    <header>
+        <div class="container header-container">
+            <div class="logo-container">
+                <img src="https://i.supaimg.com/3f4eaa98-4489-49b5-8856-7cca07be1566.jpg" alt="Agência Canela" class="logo-img">
+                <div class="logo-text">AGÊNCIA CANELA</div>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#carousel">Destaques</a></li>
+                <li><a href="#impact">Impacto</a></li>
+                <li><a href="#cta">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content floating">
+                <h1 class="fade-in">Transformando Visões em Realidade Digital</h1>
+                <p class="fade-in delay-1">Soluções criativas de alto impacto que transcendem expectativas e impulsionam resultados tangíveis</p>
+                <a href="#cta" class="cta-button fade-in delay-2">Quero Resultados Agora</a>
+                <div class="hero-stats">
+                    <div class="stat-item fade-in delay-3 floating delay-1">
+                        <div class="stat-number">9+</div>
+                        <div class="stat-label">Anos de Excelência</div>
+                    </div>
+                    <div class="stat-item fade-in delay-3 floating delay-2">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Projetos de Sucesso</div>
+                    </div>
+                    <div class="stat-item fade-in delay-3 floating delay-3">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Satisfação Cliente</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2>Nossa Jornada</h2>
+            </div>
+            <div class="experience-content fade-in delay-1">
+                <div class="years-highlight">9</div>
+                <h3>Anos de Excelência. Resultados Inquestionáveis.</h3>
+                <p>Desde 2015, moldamos o futuro digital com soluções inovadoras que transcendem expectativas. Nossa trajetória é marcada por projetos visionários, parcerias estratégicas e conquistas que redefiniram padrões de excelência no mercado.</p>
+                <p>Com uma equipe de especialistas apaixonados, combinamos criatividade de ponta, estratégia data-driven e tecnologia de última geração para construir marcas icônicas e impulsionar negócios extraordinários.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container portfolio-container">
+            <div class="section-title fade-in">
+                <h2>Portfólio de Excelência</h2>
+            </div>
+            <div class="portfolio-filters fade-in">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web-design">Web Design</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="marketing">Marketing Digital</button>
+            </div>
+            <div class="image-gallery">
+                <div class="portfolio-item pulse" data-category="web-design">
+                    <img src="https://i.supaimg.com/f0c3d971-12ec-41e9-91a5-e3621df6dd21.jpg" alt="Projeto Web Design 1" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Plataforma E-commerce Inovadora</h3>
+                        <p>Desenvolvimento de uma plataforma de e-commerce customizada, otimizada para conversão e experiência do usuário.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item pulse delay-1" data-category="branding">
+                    <img src="https://i.supaimg.com/b9cf8d3d-c923-45f8-b1cf-0c03632e8549.jpg" alt="Projeto Branding 1" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Identidade Visual Disruptiva</h3>
+                        <p>Criação de identidade visual completa, desde o logotipo até as diretrizes de marca, para startup de tecnologia.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item pulse delay-2" data-category="marketing">
+                    <img src="https://i.supaimg.com/839b819f-d3f3-42e7-a9a7-24831d161a06.jpg" alt="Projeto Marketing 1" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Campanha Digital de Alta Performance</h3>
+                        <p>Estratégia e execução de campanha de marketing digital integrada que gerou 300% de ROI.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item pulse" data-category="web-design">
+                    <img src="https://i.supaimg.com/16d00465-9831-4560-a7d5-d36c28f64ddc.jpg" alt="Projeto Web Design 2" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Website Institucional Responsivo</h3>
+                        <p>Desenvolvimento de site institucional moderno e responsivo para empresa de consultoria global.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item pulse delay-1" data-category="branding">
+                    <img src="https://i.supaimg.com/26c2e99d-1f48-4389-9a70-87a36c535728.jpg" alt="Projeto Branding 2" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Redesign de Marca Tradicional</h3>
+                        <p>Rejuvenescimento da marca para uma empresa consolidada, mantendo sua essência e modernizando sua percepção.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item pulse delay-2" data-category="marketing">
+                    <img src="https://i.supaimg.com/264b38d7-55e1-4545-9844-0c213ec97b20.jpg" alt="Projeto Marketing 2" class="portfolio-img">
+                    <div class="portfolio-overlay">
+                        <h3>Automação de Marketing para SaaS</h3>
+                        <p>Implementação de estratégias de automação de marketing que otimizaram o funil de vendas para uma SaaS.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carousel-section" id="carousel">
+        <div class="container carousel-container">
+            <div class="carousel-title fade-in">
+                <h2>Resultados em Destaque</h2>
+            </div>
+            <div class="carousel fade-in delay-1">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="https://i.supaimg.com/b9cf8d3d-c923-45f8-b1cf-0c03632e8549.jpg" alt="Destaque 1" class="carousel-img">
+                        <div class="carousel-caption">
+                            <h3>Aumento de 150% nas Vendas Online</h3>
+                            <p>Case de sucesso de uma loja virtual que, com nossa otimização, triplicou suas vendas em 6 meses.</p>
+                            <a href="#" class="carousel-button">Ver Case Completo</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.supaimg.com/16d00465-9831-4560-a7d5-d36c28f64ddc.jpg" alt="Destaque 2" class="carousel-img">
+                        <div class="carousel-caption">
+                            <h3>Crescimento de 200% no Tráfego Orgânico</h3>
+                            <p>Estratégia de SEO e conteúdo que catapultou o tráfego de um blog corporativo, gerando leads qualificados.</p>
+                            <a href="#" class="carousel-button">Ver Case Completo</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://i.supaimg.com/f0c3d971-12ec-41e9-91a5-e3621df6dd21.jpg" alt="Destaque 3" class="carousel-img">
+                        <div class="carousel-caption">
+                            <h3>Marca Reconhecida Nacionalmente</h3>
+                            <p>Campanha de branding que transformou uma pequena empresa em líder de mercado em seu segmento.</p>
+                            <a href="#" class="carousel-button">Ver Case Completo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                <div class="carousel-indicators">
+                    <span class="indicator active"></span>
+                    <span class="indicator"></span>
+                    <span class="indicator"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="impact" id="impact">
+        <div class="container impact-container">
+            <div class="section-title fade-in">
+                <h2>Nosso Impacto no Seu Negócio</h2>
+            </div>
+            <div class="impact-item fade-in delay-1 floating">
+                <h3>Aumento de Receita</h3>
+                <p>"Desde que começamos a trabalhar com a Agência Canela, nossa receita anual cresceu 40%. A equipe é simplesmente excepcional!" - Cliente Satisfeito</p>
+            </div>
+            <div class="impact-item fade-in delay-2 floating delay-1">
+                <h3>Fortalecimento da Marca</h3>
+                <p>"Eles transformaram a nossa marca! Nunca tivemos tanto engajamento e reconhecimento. Recomendo de olhos fechados." - Parceiro Estratégico</p>
+            </div>
+            <div class="impact-item fade-in delay-3 floating delay-2">
+                <h3>Otimização de Processos</h3>
+                <p>"A implementação das soluções digitais propostas otimizou nossos processos internos, gerando uma eficiência que nunca imaginamos." - CEO de Grande Empresa</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" id="cta">
+        <div class="container">
+            <h2 class="fade-in">Pronto para Transformar Seu Negócio?</h2>
+            <p class="fade-in delay-1">Entre em contato hoje e descubra como podemos impulsionar seu sucesso com estratégias digitais inovadoras e design de impacto.</p>
+            <a href="mailto:contato@agenciacanela.com.br" class="cta-button secondary fade-in delay-2">Fale Conosco Agora</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h4>Agência Canela</h4>
+                <p>Especialistas em Design e Marketing Digital, transformando visões em realidade e impulsionando resultados extraordinários.</p>
+                <div class="social-links">
+                    <a href="https://facebook.com/agenciacanela" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/agenciacanela" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com/company/agenciacanela" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/agenciacanela" target="_blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#hero">Início</a></li>
+                    <li><a href="#experience">Experiência</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#carousel">Destaques</a></li>
+                    <li><a href="#impact">Impacto</a></li>
+                    <li><a href="#cta">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Serviços</h4>
+                <ul>
+                    <li>Web Design</li>
+                    <li>Branding</li>
+                    <li>Marketing Digital</li>
+                    <li>SEO</li>
+                    <li>Mídias Sociais</li>
+                    <li>Desenvolvimento de Sistemas</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Rua da Inovação, 123 - Centro, Recife, PE</p>
+                <p><i class="fas fa-phone"></i> +55 81 99876-5432</p>
+                <p><i class="fas fa-envelope"></i> contato@agenciacanela.com.br</p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2024 Agência Canela. Todos os direitos reservados.
+        </div>
+    </footer>
+
+    <div class="lightbox">
+        <button class="lightbox-close">&times;</button>
+        <img src="" alt="Imagem Ampliada" class="lightbox-img">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script> </body>
+</html>
